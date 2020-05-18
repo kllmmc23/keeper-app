@@ -1,8 +1,10 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import App from "./components/App";
+import App from "./components/App.jsx";
 
-ReactDOM.render(<App />, document.getElementById("root"));
+const rootElement = document.getElementById("root");
+
+ReactDOM.render(<App />,rootElement);
 
 //Challenge. Render all the notes inside notes.js as a seperate Note
 //component.
